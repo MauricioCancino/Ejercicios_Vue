@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar">
   <div class="container-fluid">
     <a class="navbar-brand">Tienda Bit-game</a>  
   </div>
@@ -37,7 +37,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -47,10 +47,6 @@ export default {
   display: inline
 }
 
-.container {
-  border: solid 1px black;
-  padding: 0;
-}
 
 .container-fluid {
     

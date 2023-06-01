@@ -1,7 +1,7 @@
 <template>
      <div class="container">
           
-     <table class="table">
+     <table class="table table-dark m-0">
   <thead>
     <tr>
       <th scope="col-3">#</th>
@@ -16,9 +16,10 @@
       <td>
         {{game}}
       </td>
+      <td>
       <button type="button" @click= "eliminar(index)" class="btn btn-danger">Eliminar</button>
+      </td>
     </tr>
-  
   </tbody>
 </table>
 </div>
@@ -48,9 +49,9 @@ export default {
 </script>
 
 <style scoped>
-    .conntainer {
-        margin: 0;
-        padding: 0;
-        
+    .container {
+      border: solid 1px black;
+      padding: 0;
     }
+    
 </style>
